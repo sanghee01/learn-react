@@ -6,7 +6,6 @@ interface RouteParams {
 
 const Coin = () => {
   const { coinId } = useParams<RouteParams>();
-  console.log(coinId);
   return <h1>Coin: {coinId}</h1>;
 };
 
